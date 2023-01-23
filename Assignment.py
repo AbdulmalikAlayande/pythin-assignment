@@ -38,7 +38,8 @@ import random
 start_prompt = int(input("Enter 1 to start (0 to end): "))
 input_start = int(start_prompt)
 counter = 1
-while counter != 0:
+counter_lenght = int(input("Enter how many times you want to answer questions: "))
+while counter != counter_lenght:
 	if start_prompt == 1:
 
 		questions =["question_one",
@@ -113,11 +114,11 @@ while counter != 0:
 				print()
 
 			case "question_seven":
-				question7 = input("Is python an OOP language or a Procedural Programming language").lower()
+				question7 = input("Is python an OOP language or a Functional Programming language: ").lower()
 				if question7 == "oop":
-					print("Correct, Python is an Object Oriented Programming Language")
-				elif question7 == "procedural programming language":
-					print("Wrong, Python is an Object Oriented Programming Language")
+					print("Wrong, Python is an Functional Programming Language")
+				elif question7 == "functional programming language":
+					print("Correct, Python is an Functional Programming Language")
 				else:
 					print("Wrong")
 				print()
@@ -132,7 +133,7 @@ while counter != 0:
 					print('I will report you to Chibuzo')
 				print()
 
-	counter += 1
 else:
-	print("You were asked to enter 1 to start")  	
+	print("You were asked to enter 1 to start")
 
+	counter += 1
