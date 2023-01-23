@@ -14,7 +14,7 @@ declare variable counter and initialize it to 0
 while counter is not equal to 0
 if the users respone is 1
 import random
-then declare variable question and use the........
+then declare variable questions and use the........
 using match case if the random question generated is question one ask the question and display the answer
 prompt the user to enter their answer
 using match case if the random question generated is question two ask the question and display the answer
@@ -60,7 +60,7 @@ while counter != 0:
 					print("You are wrong, a monkey has one tail")
 				else:
 					print("Please enter a yes or no")
-			print()
+				print()
 
 			case "question_two":
 				question2 = input("Is human a mammal(yes/no): ").lower()
@@ -70,7 +70,7 @@ while counter != 0:
 					print("You are wrong, Humans are classified as a mammal")
 				else:
 					print("Please enter a yes or no")
-			print()
+				print()
 
 			case "question_three":
 				question3 = input("who was the first prime minister of Nigeria: ").lower()
@@ -78,7 +78,7 @@ while counter != 0:
 					print("Correct, Abubakar Tafawa Balewa is the first prime minister of Nigeria")
 				else: 
 					print("You are wrong, the first prime minister is Abubakar Tafawa Balewa")
-			print()
+				print()
 
 			case "question_four":
 				question4 = (input("When was police force established in Nigeria(a.1930, b.1959, c.1963, d.1914): ")).lower()
@@ -90,7 +90,7 @@ while counter != 0:
 					print("Wrong, The police force was enstablished in 1930 by Louis Edet")
 				else:
 					print("Wrong")
-			print()
+				print()
 
 			case "question_five":
 				question5 = input("Which metal is the most elastic: ").lower()
@@ -98,7 +98,7 @@ while counter != 0:
 					print("Correct, Steel is considered the most elastic because it regains it original form after removing the effect of an external force")
 				else:
 					print("wrong")
-			print()
+				print()
 
 			case "question_six":
 				question6 = input("______ & ______ logical operators do not perform short circuit(a.| and &, b.|| and &&, c.! and ||, d.| and ^)").lower()
@@ -110,7 +110,7 @@ while counter != 0:
 					print("Wrong")
 				else:
 					print("Wrong")
-			print()
+				print()
 
 			case "question_seven":
 				question7 = input("Is python an OOP language or a Procedural Programming language").lower()
@@ -120,7 +120,7 @@ while counter != 0:
 					print("Wrong, Python is an Object Oriented Programming Language")
 				else:
 					print("Wrong")
-			print()
+				print()
 
 			case "question_eight":
 				question8 = input("What is the associativity of an assignment operator: ").lower()
@@ -130,7 +130,7 @@ while counter != 0:
 					print("Wrong, The assignment operator associates from right to left")
 				else:
 					print('I will report you to Chibuzo')
-			print()
+				print()
 
 	counter += 1
 else:
