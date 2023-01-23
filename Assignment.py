@@ -6,6 +6,32 @@ for word in woor:
 	print(word)
 for i in range(0,5,i*2):
 	print(i)
+
+Prompt the user to start
+if the user enters 1
+typecast the users response to string
+declare variable counter and initialize it to 0
+while counter is not equal to 0
+if the users respone is 1
+import random
+then declare variable question and use the........
+using match case if the random question generated is question one ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question two ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question three ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question four ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question five ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question six ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question seven ask the question and display the answer
+prompt the user to enter their answer
+using match case if the random question generated is question eight ask the question and display the answer
+prompt the user to enter their answer
+then increment counter.
 """
 import random
 
